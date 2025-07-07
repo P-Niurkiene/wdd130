@@ -59,33 +59,28 @@ main {
     padding: var(--padding);
 }
 
-h2 {
-    color: var(--color);
-    padding: var(--padding);
-    text-align: left;
+
+
+aside {
+    width: 20rem;
+    border: var(--border);
+    padding: 1rem;
     margin: 1rem;
+    color: black;
+    text-align: center;
 }
 
-.image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+aside h2 {
+    color: var(--color);
+    padding: var(--padding);
+    text-align: center;
+    margin: 1rem;
 }
 
 aside img {
     width: 200px;
     height: auto;
-    border: var(--border);
-    padding: 1px;
-    margin: 1rem;
 }
-
-aside p {
-    text-align: center
-}
-
-
 
 footer {
     margin-top: 2rem;
