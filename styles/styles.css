@@ -63,6 +63,7 @@ h2 {
     color: var(--color);
     padding: var(--padding);
     text-align: left;
+    margin: 1rem;
 }
 
 .image-wrapper {
@@ -76,7 +77,8 @@ aside img {
     width: 200px;
     height: auto;
     border: var(--border);
-    padding: 5px;
+    padding: 1px;
+    margin: 1rem;
 }
 
 aside p {
