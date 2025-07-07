@@ -66,6 +66,7 @@ aside {
     border: var(--border);
     padding: 1rem;
     margin: 1rem;
+    background-color: white;
     color: black;
     text-align: center;
 }
