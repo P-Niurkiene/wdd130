@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #163756;
+    --secondary-color: #A77E65;
+    --accent1-color: #78CDD7;
+    --accent2-color: #FFFFFF;
+    --heading-font: "ITC Benguiat Std", serif;
+    --body-font: "Syne", sans-serif;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: black;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
