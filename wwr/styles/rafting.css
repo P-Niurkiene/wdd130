@@ -116,31 +116,39 @@ h2 {
 
 .gallery {
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem
+}
+
+.gallery h2 {
+    padding-bottom: 20px;
 }
 
 .gallery section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
-    justify-items: center;
+    gap: 2rem;
     text-align: center;
-    margin-top: 20px;
+}
+
+.gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
 }
 
 .gallery img {
     width: 100%;
-    height: auto;
-    border-radius: 15px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
-.gallery-item p {
+.gallery figcaption {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--primary-color);
-    background-color: var(--accent2-color);
 }
+
 
 footer {
     display: flex;
