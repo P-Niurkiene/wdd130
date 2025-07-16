@@ -3,7 +3,7 @@
     --secondary-color: #A77E65;
     --accent1-color: #78CDD7;
     --accent2-color: #FFFFFF;
-    --heading-font: "ITC Benguiat Std", serif;
+    --heading-font: "ITC Benguiat Std Medium", serif;
     --body-font: "Syne", sans-serif;
 }
 
@@ -29,6 +29,7 @@ header {
     color: var(--accent2-color);
     font-family: var(--heading-font);
     font-size: x-large;
+    font-weight: lighter;
 
 }
 
@@ -63,8 +64,8 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: xx-large;
-    padding-top: 20px;
     text-align: center;
+    font-weight: lighter;
 }
 
 
