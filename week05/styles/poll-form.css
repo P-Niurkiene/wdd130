@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+header,
+h1 {
+    font-family: 'ITC Benguiat Std Medium', serif;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    padding: 1.5rem;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: white;
+    display: grid;
+    gap: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    display: grid;
+    gap: 0.75rem;
+    padding: 1rem;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+}
+
+legend {
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: start;
+    /* keeps it aligned with the left of the form */
+}
+
+button:hover {
+    background-color: indigo;
+}
+
+footer {
+    margin-top: 2rem;
+    font-family: 'ITC Benguiat Std Medium', serif;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+}
