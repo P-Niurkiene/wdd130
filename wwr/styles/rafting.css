@@ -258,7 +258,8 @@ fieldset {
     border-radius: 8px;
 }
 
-legend {
+legend,
+h3 {
     font-family: var(--heading-font);
     font-weight: bolder;
     font-style: italic;
@@ -284,7 +285,7 @@ button {
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
-    transition: var(--secondary-color) 0.3s ease;
+    transition: 0.3s ease;
     margin: 2rem auto 1rem auto;
     display: block;
 }
