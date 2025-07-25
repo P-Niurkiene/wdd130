@@ -211,6 +211,10 @@ footer .socialmedia a {
     color: var(--primary-color);
 }
 
+.google-map {
+    border: 0;
+}
+
 .contact-section {
     display: flex;
     flex-direction: column;
@@ -292,4 +296,11 @@ button {
 
 button:hover {
     background-color: var(--secondary-color);
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
